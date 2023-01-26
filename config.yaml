@@ -1,0 +1,5 @@
+id: theme.tiny.wibus-wee.ejs
+language: zh
+configs:
+  - name: "Color"
+    value: "#000"
