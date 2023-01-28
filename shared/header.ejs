@@ -16,7 +16,7 @@
 
       <a class="p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100" href="/friends">友链</a>
       <% for (const page of site.pages) { %>
-        <a class="p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100" href="<%= page.slug %>">
+        <a class="p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100" href="/<%= page.slug %>">
           <%= page.title %>
         </a>
         <% } %>
