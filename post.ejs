@@ -52,7 +52,8 @@
           </dl>
           <div class="divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
             <div class="pt-10 pb-8 prose dark:prose-invert max-w-none">
-              <%- page.text %>
+              <textarea id="write" style="display: none;"><%- page.text %></textarea>
+              <div id="vditor"></div>
             </div>
             <div id="comment">
               <mog-comments api="http://192.168.3.4:2330" pid="<%= page.id %>" />
@@ -90,5 +91,9 @@
       </div>
     </article>
   </div>
+
+  <script>
+    Tiny.render()
+  </script>
 
   <%- include("/document/foot.ejs") %>

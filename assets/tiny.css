@@ -1,0 +1,6 @@
+@media (prefers-color-scheme: dark) {
+  .vditor-reset {
+    --tw-text-opacity: 1;
+    color: rgb(243 244 246/var(--tw-text-opacity)) !important;
+  }
+}
