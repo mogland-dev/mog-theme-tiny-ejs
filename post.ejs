@@ -42,8 +42,7 @@
                       <%= config.user.nickname %>
                     </dd>
                     <p class="text-gray-500 dark:text-gray-400"
-                      style="max-width: 10rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"
-                    >
+                      style="max-width: 10rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
                       <%= config.user.description %>
                     </p>
                   </dl>
@@ -51,12 +50,12 @@
               </ul>
             </dd>
           </dl>
-          <div class="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
+          <div class="divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
             <div class="pt-10 pb-8 prose dark:prose-invert max-w-none">
               <%- page.text %>
             </div>
             <div id="comment">
-              <!-- Comment is not supported yet. -->
+              <mog-comments api="http://192.168.3.4:2330" pid="<%= page.id %>" />
             </div>
           </div>
           <footer>
