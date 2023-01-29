@@ -4,3 +4,12 @@
     color: rgb(243 244 246/var(--tw-text-opacity)) !important;
   }
 }
+
+.pjax-start {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.pjax-end {
+  opacity: 1;
+}
