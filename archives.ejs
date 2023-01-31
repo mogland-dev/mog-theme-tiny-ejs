@@ -1,14 +1,21 @@
 <%- include("/document/head.ejs") %>
-<%- console.log(page) %>
   <div class='divide-y divide-gray-200 dark:divide-gray-700'>
     <div class='pt-6 pb-8 space-y-2 md:space-y-5'>
       <h1
         class='text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14'>
-        <%= page.data?.name %>
+        <% if (page.isCategory) { %>
+          <%= page.data?.name %>
+        <% } else { %>
+          归档
+        <% } %>
       </h1>
       <p class='text-lg leading-7 text-gray-500 dark:text-gray-400'>
-        <%= page.isTag ? '标签' : '分类' %>
-        <%= page.data?.name %> 下的所有文章
+        <%= page.isCategory ? page.isTag ? '标签' : '分类' : "归档" %>
+        <% if (page.isCategory) { %>
+          <%= page.data?.name %> 下的所有文章 
+        <% } else { %>
+          - 归纳我所有的文章
+        <% } %>
       </p>
     </div>
     <ul class='divide-y divide-gray-200 dark:divide-gray-700'>
