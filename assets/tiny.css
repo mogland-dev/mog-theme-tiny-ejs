@@ -13,3 +13,8 @@
 .pjax-end {
   opacity: 1;
 }
+
+mog-comments {
+  border-radius: 10px;
+  position: relative;
+}
