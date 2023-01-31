@@ -25,6 +25,6 @@ Tiny 主题的 EJS 版本（ For Mog Core ^2.0.0 )
 
 ## Author
 
-Mog-Theme-Tiny-EJS © Wibus, Released under AGPLv3. Created on Jan 24, 2023
+Mog-Theme-Tiny-EJS © Wibus, Released under MIT. Created on Jan 24, 2023
 
 > [Personal Website](http://iucky.cn/) · [Blog](https://blog.iucky.cn/) · GitHub [@wibus-wee](https://github.com/wibus-wee/) · Telegram [@wibus✪](https://t.me/wibus_wee)
