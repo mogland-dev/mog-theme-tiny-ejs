@@ -1,13 +1,7 @@
 # Mog-Theme-Tiny-EJS
 Tiny 主题的 EJS 版本（ For Mog Core ^2.0.0 )
 
-<pre align="center">
-🧪 Working in Progress
-
-💬 提案讨论中 mogland/rfc [0002]
-</pre>
-
-## Install
+## 安装主题
 
 ### 控制台内安装
 
@@ -20,6 +14,14 @@ Tiny 主题的 EJS 版本（ For Mog Core ^2.0.0 )
 1. 前往 Release 下载 ZIP
 2. 前往 Mog Console 「主题」页
 3. 点击「上传」页，将 ZIP 拖入即可安装
+
+## 贡献功能
+
+1. Fork 此项目
+2. Clone 你 fork 的项目
+3. 开发后提交到 GitHub
+4. 提起 PR 请求审核
+5. 审核后完成 ✅
 
 ## Author
 
