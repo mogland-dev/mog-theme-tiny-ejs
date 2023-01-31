@@ -8,8 +8,11 @@
   <script>
     Tiny.init();
     // Tiny.pjax();
+    <%= theme.custom_footer_js %>
   </script>
-
+    <% if (theme.custom_footer_css) { %>
+      <style><%= theme.custom_footer_css %></style>
+    <% } %>
   </body>
 
   </html>

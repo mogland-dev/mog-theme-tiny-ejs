@@ -1,6 +1,19 @@
 id: theme.tiny.wibus-wee.ejs
 language: zh
 configs:
-  - name: "Color"
-    type: "input"
-    value: "#000"
+  - name: "自定义 Head CSS"
+    key: "custom_head_css"
+    type: "textarea"
+    value: ""
+  - name: "自定义 Head JS"
+    key: "custom_head_js"
+    type: "textarea"
+    value: ""
+  - name: "自定义 Footer JS"
+    key: "custom_footer_js"
+    type: "textarea"
+    value: ""
+  - name: "自定义 Footer CSS"
+    key: "custom_footer_css"
+    type: "textarea"
+    value: ""
