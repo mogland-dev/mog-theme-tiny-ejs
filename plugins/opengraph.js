@@ -8,11 +8,11 @@ module.exports = {
     const summary = isArticle ?
     page.summary ? page.summary : page.text.substring(0, 100) 
     : siteDescription;
-    const image = page.image ? page?.image[0].url : config.user.avatar;
+    const image = page.image ? page?.image[0].url : user.avatar;
     const _url = url.url;
     const type = isArticle ? 'article' : 'website';
     return `
-    <meta property="og:title" content="${title}" />
+    <meta property="og:title" content="${title} - test theme" />
     <meta property="og:type" content="${type}" />
     <meta property="og:url" content="${_url}" />
     <meta property="og:image" content="${image}" />
